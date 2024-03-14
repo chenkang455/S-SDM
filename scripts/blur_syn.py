@@ -61,9 +61,9 @@ if __name__ == '__main__':
                 # num_blur_raw // 2: middle frame
                 if use_resize:
                     blur_img = cv2.resize(blur_img,(width // 2,height//2),interpolation=cv2.INTER_LINEAR)
+                # ! the former denotes the renamed order, while the latter denotes the name in the raw image folder.
                 print(f"Synthesize blurry {str((num_blur_raw - 1 + (opt.overlap_len + 1) // (num_inter + 1)) * ((i + 1) // num_blur - 1) + num_blur_raw // 2).zfill(str_len)}.png from {sub_files[start]} to {sub_files[end]}")
                 cv2.imwrite(os.path.join(output_folder,f"{str((num_blur_raw - 1 + (opt.overlap_len + 1) // (num_inter + 1)) * ((i + 1) // num_blur - 1) + num_blur_raw // 2).zfill(str_len)}.png"),blur_img)
                 imgs = []
                 bais += opt.overlap_len
                 start = i + bais + 1
-                

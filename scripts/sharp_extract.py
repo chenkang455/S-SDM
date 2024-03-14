@@ -50,7 +50,7 @@ if __name__ == '__main__':
         loop_bais = 0
         for i in trange(len(sub_files)):
             if i % (num_inter + 1) == 0:
-                if idx % num_blur_raw == num_blur_raw // 2 or (opt.multi == True and ((idx - loop_bais) % 12) % 2 == 0):
+                if idx % num_blur_raw == num_blur_raw // 2 or (opt.multi == True and ((idx - loop_bais) % 12) % 2 == 0): # % 2 is set to extract 7 images
                     file_name = sub_files[i]
                     print(file_name)
                     img = cv2.imread(os.path.join(dirpath,file_name))

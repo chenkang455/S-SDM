@@ -7,26 +7,30 @@ This is the official PyTorch implementation of [SpikeReveal: Unlocking Temporal 
 Sequence reconstruction comparison, where 1 blurry frame corresponds to 300 sharp latent frames. (flicker is caused by the gif compression)
 
 <img src="imgs/middle_calib_compress.gif" style="width: 100%;">
-- [ ] Release the scripts for simulating GOPRO dataset.
+
+- [x] Release the scripts for simulating GOPRO dataset.
 - [ ] Release the synthetic/real-world dataset.
 - [ ] Release the training and testing code.
 - [ ] Release the pretrained model.
 
 ## Dataset
 
-#### GOPRO
+Guidance on synthesizing the spike-based GOPRO dataset can be found in [GOPRO_dataset](scripts/GOPRO_dataset.md). 
 
-我们提供从头合成和直接下载两种方式来获取脉冲GOPRO合成数据集。
-
-<details><summary>Synthesize from scratch (Click to expand) </summary>
-
-
-<details><summary>Download (Click to expand) </summary>
-</details>
-
-
-
-#### RSB
+Converted GOPRO dataset and real-world blur RSB dataset will be available soon.
 
 ## Installation
+
+todo
+
+## Training
+
+todo
+
+## Evaluation
+
+todo
+
+## Contact
+Should you have any questions, please feel free to contact [mrchenkang@whu.edu.cn](mailto:mrchenkang@whu.edu.cn).
 
