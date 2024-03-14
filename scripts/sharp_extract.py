@@ -14,14 +14,15 @@ import argparse
 # main function
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
-    parser.add_argument('--raw_folder', type=str, default=r'E:\chenk\Data\GOPRO\test\raw_data')
+    parser.add_argument('--raw_folder', type=str, default='GOPRO/test/raw_data')
     parser.add_argument('--img_type', type=str, default='.png')
-    parser.add_argument('--overlap_len', type=int, default= 7)
+    parser.add_argument('--overlap_len', type=int, default= 7,
+                        help = 'Overlap length between two blurry images. Assume [0-12] -> blur_6, [13,25] -> blur_19, overlap_len is the length of interpolated frames between 12.png and 13.png,i.e.,12_0.png,...12_6.png')
     parser.add_argument('--height', type=int, default= 720)
     parser.add_argument('--width', type=int, default= 1280)
-    parser.add_argument('--use_resize', action='store_true')
-    parser.add_argument('--blur_num', type=int, default= 13)
-    parser.add_argument('--multi', action='store_true',default = False)
+    parser.add_argument('--use_resize', action='store_true', help = 'Resize the image size to the half.')
+    parser.add_argument('--blur_num', type=int, default= 13,help = 'Number of images before interpolation to synthesize one blurry frame.')
+    parser.add_argument('--multi', action='store_true',default = False,help= 'extract gt sequence from raw_folder')
     
     opt = parser.parse_args()
     width = opt.width
