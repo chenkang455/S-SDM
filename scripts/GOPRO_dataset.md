@@ -1,4 +1,9 @@
 ## Step 1: Obtain the Original GOPRO Dataset
+Step into the  `scripts` subfolder:
+```
+cd scripts
+``` 
+
 Download the [GOPRO_Large_all](https://drive.google.com/file/d/1rJTmM9_mLCNzBUUhYIGldBYgup279E_f/view) from the [GOPRO website](https://seungjunnah.github.io/Datasets/gopro) to get the sharp sequence for simulating spikes and synthesizing blurry frames. After downloading the data, rename the data file to `GOPRO` and place it in the `scripts` directory. Add a subfolder `raw_folder` in both `train` and `test` folders. The file structure is as follows:
 ```
 scripts
