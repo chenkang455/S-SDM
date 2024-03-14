@@ -6,7 +6,7 @@ This is the official PyTorch implementation of [SpikeReveal: Unlocking Temporal 
 
 Sequence reconstruction comparison, where 1 blurry frame corresponds to 300 sharp latent frames. (flicker is caused by the gif compression)
 
-<img src="imgs/middle_calib_compress.gif" style="width: 100%;">
+<img src="imgs/middle_calib_compress.gif" style="width: 130%;">
 
 - [x] Release the scripts for simulating GOPRO dataset.
 - [ ] Release the synthetic/real-world dataset.
