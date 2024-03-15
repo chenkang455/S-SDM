@@ -4,7 +4,7 @@ Step into the  `scripts` subfolder:
 cd scripts
 ```
 
-Download the [GOPRO_Large_all](https://drive.google.com/file/d/1rJTmM9_mLCNzBUUhYIGldBYgup279E_f/view) from the [GOPRO website](https://seungjunnah.github.io/Datasets/gopro) to get the sharp sequence for simulating spikes and synthesizing blurry frames. After downloading the data, rename the data file to `GOPRO` and place it in the `scripts` directory. Add a subfolder `raw_folder` in both `train` and `test` folders. The file structure is as follows:
+Download the [GOPRO_Large_all](https://drive.google.com/file/d/1rJTmM9_mLCNzBUUhYIGldBYgup279E_f/view) from the [GOPRO website](https://seungjunnah.github.io/Datasets/gopro) to get the sharp sequence for simulating spikes and synthesizing blurry frames. We also provide a [small GOPRO dataset](https://pan.baidu.com/s/1FGqlMFtnL5jwI39I5mNkTw?pwd=1623) for debugging. After downloading the data, rename the data file to `GOPRO` and place it in the `scripts` directory. Add a subfolder `raw_folder` in both `train` and `test` folders. The file structure is as follows:
 ```
 scripts
 ├── XVFI-main
@@ -21,6 +21,11 @@ scripts
             ├── GOPR0384_11_00
             ├── ...
             └── GOPR0881_11_01
+```
+
+If you prefer not to process the following steps sequentially, you can skip them and simply run:
+```
+bash run.sh
 ```
 
 ## Step 2: Frame Interpolation
@@ -51,7 +56,7 @@ python spike_simulate.py --raw_folder GOPRO/test/raw_data --overlap_len 7 --use_
 python spike_simulate.py --raw_folder GOPRO/train/raw_data --overlap_len 7 --use_resize --blur_num 13
 ```
 
-Since the spike stream also contains the additional 20 spike frames our of the exposure period, the start and end segments of the spike stream cannot be utilized. (For example, `000006.png` is the first frame of the `blur_data` folder while `000019.dat` is the first spike data of the `spike_data` folder.)
+Since the spike stream also contains the additional 20 spike frames out of the exposure period, the start and end segments of the spike stream cannot be utilized. (For example, `000006.png` is the first frame of the `blur_data` folder while `000019.dat` is the first spike data of the `spike_data` folder.)
 
 ## Step 5: Sharp Extract
 

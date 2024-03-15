@@ -1,1 +1,12 @@
 scripts/GOPRO/*
+log/*
+visual_ablation_distillation.py
+visual_gopro.py
+run.sh
+model/DeblurNet_150.pth
+model/NEW_GOPRO_9_reblur0_24_100.pth
+model/NEW_GOPRO_9_reblur10_24_full_100.pth
+model/NEW_GOPRO_9_reblur10_24_full_nolpips.pth
+model/NEW_GOPRO_9_reblur50_24_full_100.pth
+model/NEW_GOPRO_9_reblur70_24_full.pth
+model/NEW_GOPRO_9_reblur100_24_full_100.pth
