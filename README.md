@@ -77,3 +77,14 @@ python train_sr.py --test_mode --bsn_path model/BSN_1000.pth  --sr_path model/SR
 ## Contact
 Should you have any questions, please feel free to contact [mrchenkang@whu.edu.cn](mailto:mrchenkang@whu.edu.cn).
 
+## Citation
+If you find our work useful in your research, please cite:
+
+```
+@article{chen2024spikereveal,
+  title={SpikeReveal: Unlocking Temporal Sequences from Real Blurry Inputs with Spike Streams},
+  author={Chen, Kang and Chen, Shiyan and Zhang, Jiyuan and Zhang, Baoyue and Zheng, Yajing and Huang, Tiejun and Yu, Zhaofei},
+  journal={arXiv preprint arXiv:2403.09486},
+  year={2024}
+}
+```
