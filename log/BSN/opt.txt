@@ -1,0 +1,15 @@
+base_folder: GOPRO/
+save_folder: exp/BSN
+data_type: GOPRO
+exp_name: NEW_GOPRO_9_test_full
+epochs: 1001
+lr: 0.0003
+seed: 42
+bsn_len: 9
+width: 1280
+height: 720
+scheduler: test
+use_small: False
+spike_full: False
+test_mode: False
+bsn_path: ...

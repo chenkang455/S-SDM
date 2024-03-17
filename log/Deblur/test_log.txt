@@ -1,0 +1,4 @@
+2024-03-15 12:47:41,145 - INFO - Namespace(base_folder='GOPRO/', blur_step=24, bs=4, bsn_path='model/BSN_1000.pth', data_type='GOPRO', deblur_path='model/DeblurNet_100.pth', epochs=101, exp_name='test', lambda_reblur=100, lambda_tea=1, lr=0.001, roi_size=512, save_folder='exp/Deblur', seed=42, spike_bsn_len=9, spike_deblur_len=21, sr_path='model/SR_70.pth', test_mode=True, use_small=False, use_ssim=False)
+2024-03-15 12:47:42,745 - INFO - Start Training!
+2024-03-15 13:10:10,764 - INFO - SDM: ssim: 0.732  psnr: 26.362  
+2024-03-15 13:10:10,765 - INFO - Deblur_Net: ssim: 0.786  psnr: 27.928  

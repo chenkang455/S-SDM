@@ -1,0 +1,9 @@
+2024-03-15 11:42:47,789 - INFO - Namespace(base_folder='GOPRO', bsn_len=9, bsn_path='model/BSN_1000.pth', data_type='GOPRO', epochs=101, exp_name='test', lr=0.0002, save_folder='exp/SR', seed=42, sr_path='model/SR_70.pth', test_mode=True, use_small=False)
+2024-03-15 11:42:48,131 - INFO - Start Training!
+2024-03-15 11:42:48,131 - INFO - EPOCH 0/101: Train Loss: 0
+2024-03-15 12:09:24,118 - INFO - SDM: ssim: 0.732  psnr: 26.362  
+2024-03-15 12:09:24,119 - INFO - Blur_SR: ssim: 0.945  psnr: 37.286  
+2024-03-15 12:09:24,120 - INFO - Blur_Resize: ssim: 0.855  psnr: 31.124  
+2024-03-15 12:09:24,120 - INFO - BSN_SR: ssim: 0.708  psnr: 26.144  
+2024-03-15 12:09:24,121 - INFO - BSN_Resize: ssim: 0.645  psnr: 24.490  
+2024-03-15 12:09:24,121 - INFO - TFP_Resize: ssim: 0.461  psnr: 22.943  

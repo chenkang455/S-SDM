@@ -1,0 +1,4 @@
+2024-03-14 17:32:06,108 - INFO - Namespace(base_folder='GOPRO/', bsn_len=9, bsn_path='model/BSN_1000.pth', data_type='GOPRO', epochs=1001, exp_name='test', height=720, lr=0.0003, save_folder='exp/BSN', seed=42, spike_full=False, test_mode=True, use_small=False, width=1280)
+2024-03-14 17:32:06,391 - INFO - Start Training!
+2024-03-14 17:40:11,730 - INFO - TFP: mse: 0.010  ssim: 0.733  psnr: 25.997  lpips: 0.211  
+2024-03-14 17:40:11,731 - INFO - BSN: mse: 0.008  ssim: 0.842  psnr: 27.365  lpips: 0.109  

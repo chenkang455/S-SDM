@@ -1,5 +1,5 @@
 scripts/GOPRO/*
-log/*
+# log/*
 visual_ablation_distillation.py
 visual_gopro.py
 run.sh

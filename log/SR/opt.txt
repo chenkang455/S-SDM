@@ -1,0 +1,12 @@
+base_folder: GOPRO/
+save_folder: exp/SR
+data_type: GOPRO
+exp_name: NEW_GOPRO_9_bsn1000
+bsn_path: exp/BSN/NEW_GOPRO_9_test_full/ckpts/BSN_1000.pth
+sr_path: exp/SR/NEW_GOPRO_9/ckpts/SR_100.pth
+epochs: 101
+lr: 0.0002
+seed: 42
+bsn_len: 9
+use_small: False
+test_mode: False
