@@ -54,7 +54,7 @@ python train_sr.py --base_folder GOPRO/ --data_type GOPRO
 
 Train LDN  on the GOPRO dataset:
 ```
-python train_sr.py --base_folder GOPRO/ --bsn_path model/BSN_1000.pth  --sr_path model/SR_70.pth  --lambda_reblur 100 --data_type GOPRO 
+python train_deblur.py --base_folder GOPRO/ --bsn_path model/BSN_1000.pth  --sr_path model/SR_70.pth  --lambda_reblur 100 --data_type GOPRO 
 ```
 
 ## Evaluate
@@ -71,7 +71,7 @@ python train_sr.py --test_mode --bsn_path model/BSN_1000.pth  --sr_path model/SR
 
 Evaluate LDN on the GOPRO dataset:
 ```
-python train_sr.py --test_mode --bsn_path model/BSN_1000.pth  --sr_path model/SR_70.pth --deblur_path model/DeblurNet_100.pth --data_type GOPRO
+python train_deblur.py --test_mode --bsn_path model/BSN_1000.pth  --sr_path model/SR_70.pth --deblur_path model/DeblurNet_100.pth --data_type GOPRO
 ```
 
 ## Contact
