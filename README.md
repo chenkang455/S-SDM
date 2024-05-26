@@ -13,13 +13,13 @@ Sequence reconstruction comparison under different light conditions, where 1 blu
 - [x] Release the scripts for simulating GOPRO dataset.
 - [x] Release the training and testing code.
 - [x] Release the pretrained model.
-- [ ] Release the synthetic/real-world dataset.
+- [x] Release the synthetic/real-world dataset.
 
 ## Dataset
 
 Guidance on synthesizing the spike-based GOPRO dataset can be found in [GOPRO_dataset](scripts/GOPRO_dataset.md). 
 
-Converted GOPRO dataset and real-world blur RSB dataset will be available soon.
+Converted GOPRO dataset can be found in [GOPRO](https://pan.baidu.com/s/1ZvRNF4kqVB8qe1K78hmnzg?pwd=1623) and the real-world blur RSB dataset will be public once our manuscript is accepted.
 
 ## Prepare
 Our S-SDM requires the sequential training of BSN, EDSR and LDN respectively. We provide the trained weights through the [link](https://pan.baidu.com/s/1FGqlMFtnL5jwI39I5mNkTw?pwd=1623), which should be placed in the folder `model/`. Meanwhile, downloaded/converted GOPRO dataset should be located under the `project root` folder. The structure of our project is formulated as:
