@@ -11,20 +11,38 @@ If you like our project, please give us a star ⭐ on GitHub.  </h5>
 
 </h5>
 
-Implemetation of "SpikeReveal: Unlocking Temporal Sequences from Real Blurry Inputs with Spike Streams".
-
 <p align="center">
-  <img src="overview.png" width="600"/>
+  Implemetation of "SpikeReveal: Unlocking Temporal Sequences from Real Blurry Inputs with Spike Streams".
+  <img src="imgs/overview.png" width="600"/>
 </p>
+
+
 
 ## 📕 Abstarct
 > We begin with a theoretical analysis of the relationship between spike streams, blurry images, and sharp sequences, leading to the development of our Spike-guided Deblurring Model (SDM). We further construct a self-supervised processing pipeline by cascading the denoising network and the super-resolution network to reduce the sensitivity of the SDM to spike noise and its reliance on spatial-resolution matching between the two modalities. To reduce the time consumption and enhance the utilization of spatial-temporal spike information within this pipeline, we further design a Lightweight Deblurring Network (LDN) and train it based on pseudo-labels from the teacher model, i.e., the established self-supervised processing pipeline. By further introducing re-blurring loss during LDN training, we achieve better restoration performance and faster processing speed compared to the processing-lengthy and structure-complicated teacher model.
 
 ## 👀 Visual Comparisons
-Sequence reconstruction comparison under different light conditions, where 1 blurry frame corresponds to 300 sharp latent frames. (flicker is caused by the gif compression)
-
+<details open>
+<summary><strong>Sequence reconstruction on RSB dataset under different light conditions.</strong> (flicker is caused by the gif compression)</summary>
+<p align="center">
 <img src="imgs/middle_calib_compress.gif" width="1000" height="auto"/>
 <img src="imgs/high_calib_compress.gif" width="1000" height="auto"/>
+</p>
+</details>
+
+
+<details open><summary><strong>Image debluring on GOPRO dataset.</strong></summary>
+<p align="center">
+<img src="imgs/gopro.png" alt="GOPRO Dataset" width="600" />
+</p>
+</details>
+
+<details open><summary><strong>Image debluring on RSB Dataset.</strong></summary>
+<p align="center">
+<img src="imgs/rsb.png" alt="RSB Dataset" width="600" />
+</p>
+</details>
+
 
 ## 🗓️ TODO
 - [x] Release the scripts for simulating GOPRO dataset.
