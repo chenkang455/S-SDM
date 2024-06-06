@@ -33,13 +33,13 @@ If you like our project, please give us a star ⭐ on GitHub.  </h5>
 
 <details open><summary><strong>Image debluring on GOPRO dataset.</strong></summary>
 <p align="center">
-<img src="imgs/gopro.png" alt="GOPRO Dataset" width="600" />
+<img src="imgs/gopro.png" alt="GOPRO Dataset" width="1000" />
 </p>
 </details>
 
 <details open><summary><strong>Image debluring on RSB Dataset.</strong></summary>
 <p align="center">
-<img src="imgs/rsb.png" alt="RSB Dataset" width="600" />
+<img src="imgs/rsb.png" alt="RSB Dataset" width="1000" />
 </p>
 </details>
 
