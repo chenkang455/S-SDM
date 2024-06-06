@@ -1,6 +1,17 @@
-# S-SDM
+<h2 align="center"> 
+  <a href="https://arxiv.org/abs/2403.09486">SpikeReveal: Unlocking Temporal Sequences from Real Blurry Inputs with Spike Streams</a>
+</h2>
+<h5 align="center"> 
+If you like our project, please give us a star ⭐ on GitHub.  </h5>
+<h5 align="center">
 
-This is the official PyTorch implementation of [SpikeReveal: Unlocking Temporal Sequences from Real Blurry Inputs with Spike Streams](https://arxiv.org/abs/2403.09486) (arxiv).
+[![arXiv](https://img.shields.io/badge/Arxiv-2403.09486-b31b1b.svg?logo=arXiv)](https://arxiv.org/abs/2403.09486)
+[![License](https://img.shields.io/badge/License-MIT-yellow)](https://github.com/chenkang455/S-SDM)
+[![GitHub repo stars](https://img.shields.io/github/stars/chenkang455/S-SDM?style=flat&logo=github&logoColor=whitesmoke&label=Stars)](https://github.com/chenkang455/S-SDM/stargazers)&#160;
+
+</h5>
+Implemetation of SpikeReveal: Unlocking Temporal Sequences from Real Blurry Inputs with Spike Streams.
+<img src="assets/pipeline.jpg"/>
 
 > We begin with a theoretical analysis of the relationship between spike streams, blurry images, and sharp sequences, leading to the development of our Spike-guided Deblurring Model (SDM). We further construct a self-supervised processing pipeline by cascading the denoising network and the super-resolution network to reduce the sensitivity of the SDM to spike noise and its reliance on spatial-resolution matching between the two modalities. To reduce the time consumption and enhance the utilization of spatial-temporal spike information within this pipeline, we further design a Lightweight Deblurring Network (LDN) and train it based on pseudo-labels from the teacher model, i.e., the established self-supervised processing pipeline. By further introducing re-blurring loss during LDN training, we achieve better restoration performance and faster processing speed compared to the processing-lengthy and structure-complicated teacher model.
 
