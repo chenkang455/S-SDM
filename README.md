@@ -12,7 +12,6 @@ If you like our project, please give us a star ⭐ on GitHub.  </h5>
 </h5>
 
 <p align="center">
-  Implementation of "SpikeReveal: Unlocking Temporal Sequences from Real Blurry Inputs with Spike Streams".
   <img src="imgs/overview.png" width="600"/>
 </p>
 
