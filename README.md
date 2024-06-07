@@ -12,13 +12,13 @@ If you like our project, please give us a star ⭐ on GitHub.  </h5>
 </h5>
 
 <p align="center">
-  Implemetation of "SpikeReveal: Unlocking Temporal Sequences from Real Blurry Inputs with Spike Streams".
+  Implementation of "SpikeReveal: Unlocking Temporal Sequences from Real Blurry Inputs with Spike Streams".
   <img src="imgs/overview.png" width="600"/>
 </p>
 
 
 
-## 📕 Abstarct
+## 📕 Abstract
 > We begin with a theoretical analysis of the relationship between spike streams, blurry images, and sharp sequences, leading to the development of our Spike-guided Deblurring Model (SDM). We further construct a self-supervised processing pipeline by cascading the denoising network and the super-resolution network to reduce the sensitivity of the SDM to spike noise and its reliance on spatial-resolution matching between the two modalities. To reduce the time consumption and enhance the utilization of spatial-temporal spike information within this pipeline, we further design a Lightweight Deblurring Network (LDN) and train it based on pseudo-labels from the teacher model, i.e., the established self-supervised processing pipeline. By further introducing re-blurring loss during LDN training, we achieve better restoration performance and faster processing speed compared to the processing-lengthy and structure-complicated teacher model.
 
 ## 👀 Visual Comparisons
