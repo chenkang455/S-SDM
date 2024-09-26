@@ -1,5 +1,5 @@
 <h2 align="center"> 
-  <a href="https://arxiv.org/abs/2403.09486">SpikeReveal: Unlocking Temporal Sequences from Real Blurry Inputs with Spike Streams</a>
+  <a href="https://arxiv.org/abs/2403.09486">SpikeReveal: Unlocking Temporal Sequences from Real Blurry Inputs with Spike Streams (NeurIPS 2024 Spotlight)</a>
 </h2>
 <h5 align="center"> 
 If you like our project, please give us a star ⭐ on GitHub.  </h5>
