@@ -109,10 +109,12 @@ Should you have any questions, please feel free to contact [mrchenkang@whu.edu.c
 If you find our work useful in your research, please cite:
 
 ```
-@article{chen2024spikereveal,
-  title={SpikeReveal: Unlocking Temporal Sequences from Real Blurry Inputs with Spike Streams},
+@article{chen2025spikereveal,
+  title={Spikereveal: Unlocking temporal sequences from real blurry inputs with spike streams},
   author={Chen, Kang and Chen, Shiyan and Zhang, Jiyuan and Zhang, Baoyue and Zheng, Yajing and Huang, Tiejun and Yu, Zhaofei},
-  journal={arXiv preprint arXiv:2403.09486},
-  year={2024}
+  journal={Advances in Neural Information Processing Systems},
+  volume={37},
+  pages={62673--62696},
+  year={2025}
 }
 ```
